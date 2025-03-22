@@ -60,7 +60,8 @@ Uploading and downloading files requires:
 * Asynchronous mode requires the aiofiles binary file descriptor
 
 ```python
-from s3 import s3, async_s3
+from s3 import s3
+from s3.asyncio import async_s3
 
 # Synchronous
 client = s3()

@@ -61,7 +61,8 @@ settings.AWS_BUCKET = "some_bucket"
 * Для асинхронного режима требуется бинарный файловый дескриптор aiofiles
 
 ```python
-from s3 import s3, async_s3
+from s3 import s3
+from s3.asyncio import async_s3
 
 # Синхронный вариант
 client = s3()
