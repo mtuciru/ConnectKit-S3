@@ -1,6 +1,6 @@
 [project]
 name = "ConnectKit-S3"
-version = "2.0.1"
+version = "3.0.0"
 description = "Wrapper for connection to S3"
 authors = [
     { name = "RealMetamorph", email = "andr.timchuk@yandex.ru" },
